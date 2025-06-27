@@ -30,8 +30,8 @@ const jogos: Jogos = [
     },
     {
         nome: 'Jogo da associação',
-        caminho: '/Jogo-do-caca-palavra',
-        imagem: '/JogoDoCacaPalavra.png'
+        caminho: '/quiz',
+        imagem: '/quiz.png'
     }
 ]
 
