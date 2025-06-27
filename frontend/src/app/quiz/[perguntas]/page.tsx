@@ -5,32 +5,50 @@ import { PerguntaQuiz } from '@/types/perguntas';
 
 const perguntas: PerguntaQuiz[] = [
   {
-    pergunta: "o que significa cheiroso?",
-    alternativa_a: "uma parte do corpo.",
-    alternativa_b: "uma comida.",
-    alternativa_c: "uma vestimenta.",
-    alternativa_d: "uma pessoa com odor agradavel.",
-    resposta_certa: "uma pessoa com odor agradavel.",
+    pergunta: "Como se escreve onça em tupi?",
+    alternativa_a: "pira",
+    alternativa_b: "jaguarete",
+    alternativa_c: "guasu",
+    alternativa_d: "maino",
+    resposta_certa: "jaguarete",
     quiz: 2
   },
   {
-    pergunta: "o que é um carro?",
-    alternativa_a: "um meio de transporte.",
-    alternativa_b: "um jogo.",
-    alternativa_c: "um teste.",
-    alternativa_d: "um programa de tv.",
-    resposta_certa: "um meio de transporte.",
+    pergunta: "Como se escreve peixe em tupi?",
+    alternativa_a: "tatú",
+    alternativa_b: "maino",
+    alternativa_c: "pira",
+    alternativa_d: "jaguarete",
+    resposta_certa: "pira",
     quiz: 2
   },
   {
-    pergunta: "o que é um carro?",
-    alternativa_a: "um meio de transporte.",
-    alternativa_b: "um jogo.",
-    alternativa_c: "um teste.",
-    alternativa_d: "um programa de tv.",
-    resposta_certa: "um meio de transporte.",
+    pergunta: "Como se escreve veado em tupi?",
+    alternativa_a: "guasu",
+    alternativa_b: "tatú",
+    alternativa_c: "maino",
+    alternativa_d: "pira",
+    resposta_certa: "guasu",
     quiz: 2
-  }
+  },
+  {
+    pergunta: "Como se escreve tatu em tupi?",
+    alternativa_a: "jaguarete",
+    alternativa_b: "pira",
+    alternativa_c: "tatú",
+    alternativa_d: "maino",
+    resposta_certa: "tatú",
+    quiz: 2
+  },
+  {
+    pergunta: "Como se escreve macaco em tupi?",
+    alternativa_a: "maino",
+    alternativa_b: "jaguarete",
+    alternativa_c: "guasu",
+    alternativa_d: "tatú",
+    resposta_certa: "maino",
+    quiz: 2
+  },
 ];
 
 export default function PaginaQuiz() {
