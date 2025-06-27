@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { PerguntaQuiz } from '../../types/perguntas';
+import Link from 'next/link';
 
 interface QuizProps {
   perguntas: PerguntaQuiz[];
@@ -37,6 +38,9 @@ export const Quiz = ({ perguntas }: QuizProps) => {
       <div className="quiz-concluido">
         <h2>Quiz Concluído!</h2>
         <p>Sua pontuação final: {pontuacao}/{perguntas.length}</p>
+        <Link href={'/quiz'}>
+        <p className='border border-emerald-900 rounded-[10px] cursor-pointer'>Voltar para seleção de Quiz</p>
+        </Link>
       </div>
     );
   }

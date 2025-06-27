@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
-import { Search } from "lucide-react";
+// import { Search } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,9 +34,9 @@ export default function RootLayout({
               height={130}
             />
           </Link>
-          <div className="h-[35px] w-[400px] border rounded-4xl flex items-center px-1">
+          {/* <div className="h-[35px] w-[400px] border rounded-4xl flex items-center px-1">
             <Search className="w-[25] h-[25]"/>
-          </div>
+          </div> */}
           <Image 
             src={'/52a6736dcec774265bb0e51ae213b8c520743bac (1).png'}
             alt="Brasil"
